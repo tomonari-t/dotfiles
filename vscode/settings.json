@@ -1,0 +1,24 @@
+{
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true
+    },
+    "go.gopath": "/Users/01024165/go",
+    "go.goroot": "/Users/01024165/.goenv/versions/1.9.5",
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": false,
+    "standard.semistandard": true
+}
