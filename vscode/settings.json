@@ -20,5 +20,8 @@
     "go.goroot": "/Users/01024165/.goenv/versions/1.9.5",
     "window.zoomLevel": 0,
     "editor.formatOnSave": false,
-    "standard.semistandard": true
+    "standard.semistandard": true,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2
 }
