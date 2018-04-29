@@ -1,7 +1,7 @@
 {
     "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
     "editor.renderWhitespace": "all",
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Gotham",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -23,5 +23,6 @@
     "standard.semistandard": true,
     "javascript.implicitProjectConfig.experimentalDecorators": true,
     "files.trimTrailingWhitespace": true,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "workbench.iconTheme": "material-icon-theme"
 }

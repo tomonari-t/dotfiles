@@ -44,11 +44,4 @@ set tabstop=2
 set shiftwidth=2
 syntax on
 " カラースキーマの指定
-colorscheme molokai
-"カラースキーマを設定
-colorscheme molokai
-let g:molokai_original = 1
-let g:rehash256 = 1
-set background=dark
-" 行番号の色
-highlight LineNr ctermfg=darkyellow
+colorscheme gotham 
