@@ -1,6 +1,4 @@
 export PATH=/opt/homebrew/bin:$PATH
-# pyenv
-eval "$(pyenv init -)"
 
 # nodenv
 eval "$(nodenv init -)"
@@ -11,8 +9,8 @@ source ~/.zplug/init.zsh
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 # 非同期処理できるようになる
 zplug "mafredri/zsh-async"
-# テーマ(ここは好みで。調べた感じpureが人気)
-zplug "sindresorhus/pure"
+# テーマ
+zplug "dracula/zsh", as:theme
 # 構文のハイライト(https://github.com/zsh-users/zsh-syntax-highlighting)
 zplug "zsh-users/zsh-syntax-highlighting"
 # コマンド入力途中で上下キー押したときの過去履歴がいい感じに出るようになる
