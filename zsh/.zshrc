@@ -1,5 +1,10 @@
 export PATH=/opt/homebrew/bin:$PATH
 
+# gcloud
+# brew install --cask google-cloud-sdk
+source '/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+source '/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+
 # nodenv
 eval "$(nodenv init -)"
 
