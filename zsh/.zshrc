@@ -1,12 +1,23 @@
 export PATH=/opt/homebrew/bin:$PATH
 
+# solana
+export PATH="/Users/tomonaritakahashi/.local/share/solana/install/active_release/bin:$PATH"
+
 # gcloud
 # brew install --cask google-cloud-sdk
 source '/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 source '/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 
+# Android for Expo
+export ANDROID_HOME=/Users/tomonaritakahashi/Library/Android/sdk
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
+
 # nodenv
 eval "$(nodenv init -)"
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH" 
+eval "$(rbenv init - zsh)"
 
 # brew install zplug
 ###################### zplug ######################################
